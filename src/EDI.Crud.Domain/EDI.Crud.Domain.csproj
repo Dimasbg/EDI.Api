@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="UserRepo\Impl\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\EDI.Crud.Data\EDI.Crud.Data.csproj" />
+    <ProjectReference Include="..\EDI.Crud.Utilities\EDI.Crud.Utilities.csproj" />
+  </ItemGroup>
+
+</Project>
